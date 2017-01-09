@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+	<title>Integrando o Google reCaptcha com CodeIgniter</title>
 
 	<style type="text/css">
 
@@ -68,10 +68,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 	<div id="container">
-		<h1>Google reCaptcha com CodeIgniter</h1>
+		<h1>Integrando o Google reCaptcha com o CodeIgniter</h1>
 
-		<div id="body">
-			<p>Exemplo de aplicação do Google reCaptcha no CodeIgniter</p>
+		<div id="body">			
 			<form action="<?=base_url()?>" method="post">
 					<div class="g-recaptcha" data-sitekey="<?= $siteKey; ?>"></div>
 					<script type="text/javascript"
